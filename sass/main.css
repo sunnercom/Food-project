@@ -1,1 +1,232 @@
-/*# sourceMappingURL=main.css.map */
+/* Core style */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+textarea:focus,
+select:focus {
+  outline: none !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+a:active,
+a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  background-color: #403C3B;
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 13px 14px 24px;
+  background: linear-gradient(115deg, #618967 5.11%, #72A479 94%);
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn .product__value {
+  border-radius: 50%;
+  padding: 0 8px;
+  height: 24px;
+  display: inline-block;
+  line-height: 24px;
+  background-color: #fff;
+  color: #403C3B;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 32px;
+  position: relative;
+}
+.btn .product__value::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  left: -12px;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.btn:hover {
+  color: #fff;
+  background: linear-gradient(115deg, #72A479 5.11%, #618967 94%);
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.intro__content-btn {
+  color: #fff;
+  font-family: "Zing Rust Demo Base";
+  font-size: 25px;
+  line-height: 109.2%;
+  padding: 5px 23px;
+  background: linear-gradient(115deg, #618967 5.11%, #72A479 94%);
+  display: inline-block;
+  margin-top: 20px;
+  transform: rotate(-8.022deg) skewX(-12.022deg);
+}
+
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 23px 0;
+}
+.header__logo {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 3.75px;
+}
+.header__search-box {
+  width: 555px;
+  margin: 0 30px 0 72px;
+}
+.header__search {
+  color: #CFCFCF;
+  font-size: 18px;
+  border: none;
+  padding: 15px 17px 15px 48px;
+  background-color: #504B4A;
+  border-radius: 10px;
+}
+.header__search::-moz-placeholder {
+  color: #CFCFCF;
+}
+.header__search::placeholder {
+  color: #CFCFCF;
+}
+.header__location-icon {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 18px;
+  right: auto;
+  cursor: pointer;
+}
+.header__search-icon {
+  top: 50%;
+  transform: translateY(-50%);
+  left: auto;
+  right: 19px;
+  cursor: pointer;
+}
+.header__contact-box .phone-bg {
+  background-color: #618967;
+  border-radius: 50%;
+  padding: 0 9px;
+  height: 32px;
+  line-height: 32px;
+}
+.header__cantact-number {
+  margin-left: 10px;
+}
+.header__cantact-number span {
+  color: #CFCFCF;
+  font-size: 12px;
+  line-height: 20px;
+  display: block;
+}
+.header__cantact-number a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.intro {
+  background-image: url(../../images/intro-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 72px 0 137px 0;
+}
+.intro__content {
+  max-width: 613px;
+  text-align: center;
+}
+.intro__content-title {
+  color: #FFF;
+  font-family: "Zing Rust Demo Base";
+  font-size: 67px;
+  font-weight: 400;
+  line-height: 109.2%;
+  transform: rotate(-8.368deg);
+  margin-top: 33px;
+  text-shadow: -7px 4px 0px rgba(255, 255, 255, 0.25);
+}
+
+.sliders .sliders__menu {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.sliders .menu__parent {
+  padding-left: 0;
+}
+.sliders .menu__parent li {
+  list-style: none;
+}
+.sliders .menu__parent .menu__links {
+  margin-right: 24px;
+  color: #CFCFCF;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+.sliders .menu__parent .menu__links:hover {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #618967;
+}
+.sliders .menu__parent .menu__links.active {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #618967;
+}/*# sourceMappingURL=main.css.map */

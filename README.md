@@ -1,2 +1,1 @@
-# Food-project
-this project is about foods
+# food-project-2

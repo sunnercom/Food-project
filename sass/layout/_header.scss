@@ -1,0 +1,63 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixin";
+
+.header {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+	padding: 23px 0;
+
+	&__logo {
+		color: variables.$white;
+		font-size: 25px;
+		font-weight: 700;
+		line-height: 25px;
+		letter-spacing: 3.75px;
+	}
+	&__search-box {
+		width: 555px;
+		margin: 0 30px 0 72px;
+	}
+	&__search {
+		color: variables.$white-gray;
+		font-size: 18px;
+		border: none;
+		padding: 15px 17px 15px 48px;
+		background-color: variables.$input-bgcolor;
+		border-radius: 10px;
+	}
+	&__search::placeholder {
+		color: variables.$white-gray;
+	}
+	&__location-icon {
+		@include mixin.search-icon($left: 18px)
+	}
+	&__search-icon {
+		@include mixin.search-icon($right: 19px)
+	}
+	&__contact-box {
+
+		.phone-bg {
+			background-color: variables.$dark-green;
+			border-radius: 50%;
+			padding: 0 9px;
+			height: 32px;
+			line-height: 32px;
+		}
+	}
+	&__cantact-number {
+		margin-left: 10px;
+		
+		span {
+			color: variables.$white-gray;
+			font-size: 12px;
+			line-height: 20px;
+			display: block;
+		}
+		a {
+			color: variables.$white;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 20px;
+		}
+	}
+}
+
