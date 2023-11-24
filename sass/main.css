@@ -203,8 +203,9 @@ body {
 }
 
 .sliders .sliders__menu {
-  margin-top: 23px;
-  margin-bottom: 23px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  margin-bottom: 52px;
 }
 .sliders .menu__parent {
   padding-left: 0;
@@ -229,4 +230,71 @@ body {
   font-weight: 500;
   padding-bottom: 10px;
   border-bottom: 3px solid #618967;
+}
+.sliders .first-slider__title {
+  margin-bottom: 50px;
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-left: 4px solid #618967;
+  padding-left: 20px;
+}
+.sliders .mySwiper .swiper-slide {
+  width: 325px;
+}
+.sliders .mySwiper .swiper-wrapper {
+  margin-bottom: 50px;
+  gap: 16px;
+}
+.sliders .mySwiper .slide-img img {
+  width: 360px;
+}
+.sliders .mySwiper .slider-content {
+  background-color: #4D4847;
+  width: 325px;
+  padding-top: 14px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 16px;
+}
+.sliders .mySwiper .slider-content h5 {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 700;
+}
+.sliders .mySwiper .slider-content .slider-big__text {
+  color: #CFCFCF;
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+.sliders .mySwiper .slider-content .ssss {
+  margin-bottom: 30px;
+}
+.sliders .mySwiper .slider-content .content-footer {
+  display: flex;
+}
+.sliders .mySwiper .slider-content .content-footer span {
+  color: white;
+  margin-right: 100px;
+}
+.sliders .mySwiper .slider-content .content-footer .btn {
+  width: 137px;
+}
+.sliders .mySwiper .content-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.sliders .mySwiper .content-head p {
+  color: #FFF;
+  font-size: 12px;
+}
+
+.about-us {
+  width: 1300px;
+  height: 610px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
