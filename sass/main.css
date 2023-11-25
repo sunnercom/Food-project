@@ -245,7 +245,6 @@ body {
 }
 .sliders .mySwiper .swiper-wrapper {
   margin-bottom: 50px;
-  gap: 16px;
 }
 .sliders .mySwiper .slide-img img {
   width: 360px;
