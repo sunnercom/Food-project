@@ -73,18 +73,23 @@
 		}
 		
 		.swiper-slide {
+			width: 100%;
+		}
+
+		.swiper-slide-active {
+			margin-right: 0;
 			width: 325px;
 		}
 
 		.slide-img {
 			img {
-				width: 360px;
+				width: 100%;
 			}
 		}
 
 		.slider-content {
 			background-color: #4D4847;
-			width: 325px;
+			width: 376px;
 			padding-top: 14px;
 			padding-left: 20px;
 			padding-bottom: 20px;
@@ -112,7 +117,7 @@
 
 				span {
 					color: white;
-					margin-right: 100px;
+					margin-right: 160px;
 				}
 
 				.btn {
@@ -140,4 +145,7 @@
 	width: 1300px;
 	height: 610px;
 	margin: 0 auto;
+	background: url(../images/about-us_bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
