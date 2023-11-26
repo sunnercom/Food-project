@@ -89,7 +89,8 @@
 
 		.slider-content {
 			background-color: #4D4847;
-			width: 376px;
+			//width: 376px;
+			width: 100%;
 			padding-top: 14px;
 			padding-left: 20px;
 			padding-bottom: 20px;
@@ -354,4 +355,39 @@
 		padding-right: 26px;
 		padding-bottom: 24px;
 	}
+}
+
+.modal-content {
+	border-radius: 10px;
+	background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+	width: 458px;
+	height: 348px;
+
+	.modal-header {
+		border-bottom: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.btn-close {
+		padding: 16px;
+	}
+
+	.modal-body {
+		svg {
+			margin-left: 180px;
+			margin-top: 52px;
+			margin-bottom: 14px;
+		}
+
+		h4 {
+			margin-bottom: 43px;
+		}
+
+		.btn {
+			margin-left: 140px;
+		}
+
+	}
+
 }

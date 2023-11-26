@@ -181,6 +181,26 @@ body {
   line-height: 20px;
 }
 
+@media screen and (max-width: 1469px) {
+  .header__cart-btn .btn img {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header__cart-btn .btn {
+    width: 62px;
+    height: 56px;
+    padding: 14px 13px 14px 3px;
+  }
+  .header__cart-btn .btn img {
+    display: block;
+  }
+  .header__cart-btn .btn .product__value {
+    display: none;
+    border-left: none;
+    border-bottom: 1px solid #fff;
+  }
+}
 .footer {
   background: linear-gradient(271deg, #44403F 0.4%, #211F20 100%);
   margin-top: 500px;
@@ -296,7 +316,7 @@ body {
 }
 .sliders .mySwiper .slider-content {
   background-color: #4D4847;
-  width: 376px;
+  width: 100%;
   padding-top: 14px;
   padding-left: 20px;
   padding-bottom: 20px;
@@ -513,6 +533,32 @@ body {
   padding-left: 152px;
   padding-right: 26px;
   padding-bottom: 24px;
+}
+
+.modal-content {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+  width: 458px;
+  height: 348px;
+}
+.modal-content .modal-header {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+.modal-content .btn-close {
+  padding: 16px;
+}
+.modal-content .modal-body svg {
+  margin-left: 180px;
+  margin-top: 52px;
+  margin-bottom: 14px;
+}
+.modal-content .modal-body h4 {
+  margin-bottom: 43px;
+}
+.modal-content .modal-body .btn {
+  margin-left: 140px;
 }
 
 .acardions-title {
