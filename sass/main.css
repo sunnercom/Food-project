@@ -297,10 +297,79 @@ body {
 }
 
 .about-us {
-  width: 1300px;
+  width: 1363px;
   height: 610px;
   margin: 0 auto;
   background: url(../images/about-us_bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.about-us .about-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 100px 0 26px 70px;
+}
+.about-us .about-text {
+  width: 563px;
+  color: #CFCFCF;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0 0 60px 70px;
+}
+.about-us .about-btn {
+  color: #FFF;
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 70px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
+  padding: 22px 25px 21px 64px;
+}
+
+.about-us_cards {
+  padding: 71px 0 0 0;
+}
+.about-us_cards .ss .card-text {
+  padding-left: 23px;
+}
+.about-us_cards .sss .card-text {
+  padding-left: 12px;
+  color: #79b282;
+}
+.about-us_cards .about-card {
+  background: rgba(80, 75, 74, 0.9);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  width: 228px;
+  height: 226px;
+  padding: 66px 22px 40px 21px;
+  margin: 15px;
+}
+.about-us_cards .about-card svg {
+  margin-left: 58px;
+  margin-right: 57px;
+  margin-bottom: 26px;
+  /*:hover {
+  	color: #79B282;
+  }*/
+}
+.about-us_cards .about-card .card-text {
+  font-size: 18px;
+  /*:hover {
+  	color: #79B282;
+  }*/
+}
+.about-us_cards .about-card:hover {
+  box-shadow: 0px 40px 50px 0px rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.s {
+  padding: 71px 0 71px 160px;
 }/*# sourceMappingURL=main.css.map */
